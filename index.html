@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<title>MEUS CONTATOS</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div id="headerBar">
+			<h1 id="titulo">MEUS CONTATOS</h1>
+		</div>
+		<div id="sombra"></div>
+	</header>
+	
+		<div id="formulario">
+
+			<h2 id="subtitulo">Insira as Informações</h2>
+			<label class="labels"	id="nomeInput">Nome</label>
+			<input class="inputs" type="text" id="inputList">
+			<label class="labels"	id="numeroInput">Numero de Telefone</label>
+			<input class="inputs" type="number" id="inputNumber">
+
+			<input type="submit" id="addList" value="+ Add Novo Contato">
+			<div id="sombraBtn"></div>
+		</div>
+		<div id="sombrabox"></div>
+
+		<div id="lista">
+
+		</div>
+	
+	<script src="model/modeDados.js"></script>
+	<script src="model/modelContato.js"></script>
+	<script src="controller/ControlDados.js"></script>
+	<script src="view/index.js"></script>	
+	<script src="app.js"></script>
+
+</body>
+</html>

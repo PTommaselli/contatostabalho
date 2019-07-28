@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background: #FFB74D;
+}
+
+#headerBar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #F57C00;
+    align-items: center;
+    justify-content: center;
+}
+#sombra{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5px;
+    background: #EF6C00;
+}
+
+#titulo{
+    color: white;
+}
+
+#subtitulo{
+    color: white;
+    margin-top: 20px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    background: #EF6C00;
+    width: 50%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sombrabox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 5px;
+    background: rgb(214, 97, 0);
+}
+
+#nomeInput{
+    margin-top: 35px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    color: white;
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 80%;
+}
+
+#addList{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    border: none;
+    height: 40px;
+    margin-top: 50px;
+    outline: none;
+    justify-content: center;
+    background: #E64A19;
+    color: white;
+    font-size: 20px;
+}
+
+#sombraBtn{
+    width: 80%;
+    height: 5px;
+    background: rgb(190, 60, 20);
+    margin-bottom: 50px;
+}
+
+
+.totalList{
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+    height: 74px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #EF6C00;
+    color: white;
+    border:rgb(230, 74, 25) solid 8px;
+    
+}
+
+#coracao{
+    color: white;
+    outline: none;
+}
+
+#coracao:hover{
+    color: rgb(230, 74, 25);
+}
+
+#lixeira{
+    color: white;
+    outline: none;
+}
+
+#lixeira:hover{
+    color: rgb(230, 74, 25);
+}
+
+#btnExcluir{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#btnRelacao{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.nomeContato{
+    font-size: 22px;
+}
+
+.relacao{
+    font-size: 10px;
+    color: rgb(109, 70, 39);
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.numberContato{
+    font-size: 12px;
+
+}
+
+.btnAction{
+    position: relative;
+    top: 24px;
+    
+}
+
